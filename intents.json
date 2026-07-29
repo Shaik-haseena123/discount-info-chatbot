@@ -1,0 +1,74 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": ["Hi", "Hello", "Hey", "Good morning", "Good evening", "Is anyone there?", "Hey there"],
+      "responses": ["Hello! Welcome to the Discount Info Chatbot. How can I help you today?", "Hi there! Ask me about any ongoing discounts or offers."]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["Bye", "See you later", "Goodbye", "Thanks, bye", "Talk to you later", "Exit"],
+      "responses": ["Goodbye! Grab those discounts before they expire.", "See you soon! Happy shopping."]
+    },
+    {
+      "tag": "thanks",
+      "patterns": ["Thanks", "Thank you", "That's helpful", "Thanks a lot", "Appreciate it"],
+      "responses": ["You're welcome!", "Happy to help! Let me know if you need more discount info.", "Anytime!"]
+    },
+    {
+      "tag": "discount_query",
+      "patterns": ["What discounts are available?", "Any offers today?", "Tell me about current discounts", "What deals do you have?", "Any ongoing sale?", "Show me discounts"],
+      "responses": ["We currently have discounts of up to 40% on electronics, 30% on clothing, and 20% on groceries.", "There's a flat 25% off on all categories this week, plus extra offers on select brands."]
+    },
+    {
+      "tag": "discount_percentage",
+      "patterns": ["How much discount on electronics?", "What is the percentage off on clothes?", "How much can I save?", "What's the discount rate?"],
+      "responses": ["Electronics: up to 40% off. Clothing: up to 30% off. Groceries: up to 20% off.", "Discounts range from 10% to 40% depending on the category."]
+    },
+    {
+      "tag": "coupon_code",
+      "patterns": ["Do you have a coupon code?", "Any promo code?", "Give me a discount code", "Is there a voucher code?", "Coupon for first order"],
+      "responses": ["Use code SAVE20 for an extra 20% off your order.", "Try WELCOME15 for 15% off on your first purchase.", "FESTIVE30 gives you 30% off on festive collections."]
+    },
+    {
+      "tag": "seasonal_sale",
+      "patterns": ["Is there a festive sale?", "Any Diwali offers?", "Christmas discounts?", "Black Friday sale?", "Summer sale details", "New Year offers"],
+      "responses": ["Yes! Our seasonal sale offers up to 50% off across categories during festive periods.", "Our Black Friday and Diwali sales offer the year's biggest discounts, up to 60% off."]
+    },
+    {
+      "tag": "membership_discount",
+      "patterns": ["Do members get extra discount?", "Is there a loyalty program discount?", "Premium member offers?", "Subscription discount"],
+      "responses": ["Premium members get an additional 10% off on every order.", "Loyalty program members earn points redeemable for discounts up to 15%."]
+    },
+    {
+      "tag": "student_discount",
+      "patterns": ["Is there a student discount?", "Do you offer discounts for students?", "Student ID discount"],
+      "responses": ["Yes, students get a 15% discount with a valid student ID or student email verification."]
+    },
+    {
+      "tag": "senior_discount",
+      "patterns": ["Do senior citizens get a discount?", "Is there an offer for elderly customers?", "Senior citizen discount details"],
+      "responses": ["Senior citizens (60+) receive a flat 10% discount on all orders with valid ID proof."]
+    },
+    {
+      "tag": "bulk_discount",
+      "patterns": ["Discount on bulk orders?", "Wholesale discount?", "Do you offer discount for large quantity?", "Bulk purchase offer"],
+      "responses": ["Bulk orders above 50 units get a 20% discount. Contact sales for custom wholesale pricing."]
+    },
+    {
+      "tag": "discount_expiry",
+      "patterns": ["When does the discount end?", "Is the offer still valid?", "Last date for the sale", "Till when is this coupon valid?"],
+      "responses": ["The current discount is valid until the end of this month.", "This offer expires in 3 days, so grab it soon!"]
+    },
+    {
+      "tag": "no_discount",
+      "patterns": ["Why isn't my discount applying?", "The coupon code isn't working", "Discount not showing at checkout"],
+      "responses": ["Please make sure the coupon code is entered exactly as given and check the minimum order value requirement. If it still fails, contact support."]
+    },
+    {
+      "tag": "fallback",
+      "patterns": [],
+      "responses": ["I'm sorry, I didn't quite understand that. Could you rephrase your question about discounts or offers?"]
+    }
+  ]
+}
